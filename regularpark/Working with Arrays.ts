@@ -37,6 +37,7 @@ interface User {
   lastName: string;
   role: 'admin' | 'user' | 'super-admin';
   posts: Post[];
+  // posts: Array<Post>; // is enable too
 }
 
 interface Post {
